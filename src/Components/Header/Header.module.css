@@ -1,0 +1,99 @@
+
+.main__header__area{
+    width: 50%;
+    margin: 80px auto;
+
+}
+.main__header__area h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #F50057 ;
+    margin-bottom: 10px;
+}
+
+.todo__form__area{
+    display: flex;
+}
+.todo__form__area input{
+    flex: 1;
+    outline: none;
+    padding: 12px;
+}
+.todo__form__area button{
+    flex: 0;
+}
+
+/* ============ LOGGED IN USER ========== */
+.user_design{
+    width: 150px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin:10px auto
+
+}
+
+.user_flex{
+   
+}
+.user_design img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.user_flex h6{
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.user_design button{
+    margin-top: 5px;
+    cursor: pointer;
+}
+/* =============== todo main area =============== */
+.todo__main__area{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+
+
+/* ========== showcase area ========= */
+.todo__showcase__area{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+
+/* ================= responsive ================== */
+@media screen and (max-width:992px) {
+    .main__header__area{
+        width: 80%;
+        margin: 80px auto;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .todo__main__area h1{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .todo__form__area{
+        flex-direction: column;
+    }
+    .todo__form__area button{
+        margin: 10px 0;
+        padding: 12px;
+    }
+}

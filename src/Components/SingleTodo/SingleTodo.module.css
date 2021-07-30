@@ -1,0 +1,51 @@
+
+.single__todo__flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 15px;
+}
+
+.single__todo__flex h4{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.todo__action{
+    display: flex;
+}
+.edit__icon{
+    font-size: 25px;
+    margin-right: 8px;
+    color: green;
+    cursor: pointer;
+}
+.delete__icon{
+    color: #F50057;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modal_form{
+text-align: center;
+}
+.modal_form h5{
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.modal_form input{
+    padding: 8px;
+}
+.modal_form button{
+    padding: 8px;
+    margin-left: 10px;
+    background-color: green;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
